@@ -334,7 +334,7 @@ a{
 #para {
     display: grid;
     grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
-    grid-template-rows: 2fr 1fr 0.5fr 1fr 0.5fr 1fr;
+    grid-template-rows: 1.5fr 0.5fr 0.25fr 0.4fr 0.25fr 0.4fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -355,10 +355,16 @@ a{
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
         font-size: 23px;
+        height: 180px;
     }
     #imgsta { 
         grid-area: 3 / 2 / 4 / 3;
         text-align: center;
+        background-image: url("../img/onoff.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: auto;
         color: rgba(134, 134, 134, 0.863);
         margin-left: auto;
         margin-right: auto;
@@ -372,6 +378,11 @@ a{
     #imgeas { 
         grid-area: 3 / 3 / 4 / 4;
         text-align: center;
+        background-image: url("../img/flag.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: auto;
         color: rgba(134, 134, 134, 0.863);
         margin-left: auto;
         margin-right: auto;
@@ -385,6 +396,11 @@ a{
     #imgrob { 
         grid-area: 3 / 4 / 4 / 5;
         text-align: center;
+        background-image: url("../img/anchor.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: auto;
         color: rgba(134, 134, 134, 0.863);
         margin-left: auto;
         margin-right: auto;
@@ -398,6 +414,11 @@ a{
     #imgtyp { 
         grid-area: 5 / 2 / 6 / 3;
         text-align: center;
+        background-image: url("../img/paragraph.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: auto;
         color: rgba(134, 134, 134, 0.863);
         margin-left: auto;
         margin-right: auto;
@@ -411,6 +432,11 @@ a{
     #imgeco { 
         grid-area: 5 / 3 / 6 / 4;
         text-align: center;
+        background-image: url("../img/umbrella.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: auto;
         color: rgba(134, 134, 134, 0.863);
         margin-left: auto;
         margin-right: auto;
@@ -424,6 +450,11 @@ a{
     #imgwid { 
         grid-area: 5 / 4 / 6 / 5;
         text-align: center;
+        background-image: url("../img/slider.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: auto;
         color: rgba(134, 134, 134, 0.863);
         margin-left: auto;
         margin-right: auto;
