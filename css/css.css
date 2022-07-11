@@ -339,37 +339,44 @@ a{
     grid-row-gap: 0px;
     }
     
-    #imgdisp { 
+    #imgdis { 
         grid-area: 1 / 2 / 2 / 5;
+        background-image: url("../img/img_devices.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 90px;
+        width: auto;
+        height: auto;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
     }
-    #txtdisp { 
+    #txtdis { 
         grid-area: 2 / 2 / 3 / 5;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
+        font-size: 23px;
     }
-    #imgstart { 
+    #imgsta { 
         grid-area: 3 / 2 / 4 / 3;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    #txtstart { 
+    #txtsta { 
         grid-area: 4 / 2 / 5 / 3;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
         font-size: 19px;
     }
-    #imgeasy { 
+    #imgeas { 
         grid-area: 3 / 3 / 4 / 4;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    #txteasy { 
+    #txteas { 
         grid-area: 4 / 3 / 5 / 4;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
@@ -379,7 +386,8 @@ a{
         grid-area: 3 / 4 / 4 / 5;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #txtrob { 
         grid-area: 4 / 4 / 5 / 5;
@@ -391,7 +399,8 @@ a{
         grid-area: 5 / 2 / 6 / 3;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #txttyp { 
         grid-area: 6 / 2 / 7 / 3;
@@ -403,7 +412,8 @@ a{
         grid-area: 5 / 3 / 6 / 4;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #txteco { 
         grid-area: 6 / 3 / 7 / 4;
@@ -415,7 +425,8 @@ a{
         grid-area: 5 / 4 / 6 / 5;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #txtwid { 
         grid-area: 6 / 4 / 7 / 5;
