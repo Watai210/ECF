@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Araboto Light';
+    src:
+        url(../fonts/araboto/Araboto\ Light\ 400.woff2) format('woff2'),
+        url(../fonts/araboto/Araboto-Light-400.woff) format('woff'),
+        url(../fonts/araboto/Araboto\ Light\ 400.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+body{
+    font-family: 'Araboto Light';
+}
