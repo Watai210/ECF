@@ -39,6 +39,20 @@
     grid-area: foot;
 }
 
+#btnretour{
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(141,199,61,1);
+    border: 1px solid rgba(141,199,61,1);
+    border-radius: 15%;
+    font-size: 1vw;
+    width: 2vw;
+    height: 2vw;
+}
+
 /*Top*/
 
 #top {
@@ -378,11 +392,10 @@ hr{
     #imgdis { 
         grid-area: 1 / 2 / 2 / 5;
         background-image: url("../img/img_devices.png");
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
-        margin: 3vw;
-        width: auto;
-        height: 75vh;
+        width: 95vw;
+        height: auto;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
     }
