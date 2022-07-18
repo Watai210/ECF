@@ -409,7 +409,7 @@ hr{
         grid-area: 2 / 2 / 3 / 5;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 1.7vw;
+        font-size: 3vh;
         height: 15vh;
         margin-bottom: 5vh;
     }
@@ -429,7 +429,7 @@ hr{
         grid-area: 4 / 2 / 5 / 3;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 1.5vw;
+        font-size: 2vh;
     }
     #imgeas { 
         grid-area: 3 / 3 / 4 / 4;
@@ -447,7 +447,7 @@ hr{
         grid-area: 4 / 3 / 5 / 4;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 1.5vw;
+        font-size: 2vh;
     }
     #imgrob { 
         grid-area: 3 / 4 / 4 / 5;
@@ -465,7 +465,7 @@ hr{
         grid-area: 4 / 4 / 5 / 5;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 1.5vw;
+        font-size: 2vh;
     }
     #imgtyp { 
         grid-area: 5 / 2 / 6 / 3;
@@ -483,7 +483,7 @@ hr{
         grid-area: 6 / 2 / 7 / 3;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 1.5vw;
+        font-size: 2vh;
     }
     #imgeco { 
         grid-area: 5 / 3 / 6 / 4;
@@ -501,7 +501,7 @@ hr{
         grid-area: 6 / 3 / 7 / 4;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 1.5vw;
+        font-size: 2vh;
     }
     #imgwid { 
         grid-area: 5 / 4 / 6 / 5;
@@ -519,13 +519,13 @@ hr{
         grid-area: 6 / 4 / 7 / 5;
         text-align: center;
         color: rgba(134, 134, 134, 0.863);
-        font-size: 1.5vw;
+        font-size: 2vh;
     }
     #txtsta h4, #txteas h4, #txtrob h4, #txttyp h4, #txteco h4, #txtwid h4 {
         margin-top: 5px;
         margin-bottom: 10px;
         text-align: center;
-        font-size: 1.7vw;
+        font-size: 3.5vh;
         color: black;
     }
 
