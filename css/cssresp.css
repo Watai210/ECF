@@ -12,7 +12,7 @@
         grid-auto-rows: minmax(300px, auto);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        height: 435vh;
+        height: 600vh;
         grid-template-areas: 
         "haut"
         "gal"
@@ -205,7 +205,7 @@
         height: 100%;
         width: auto;
         grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
-        grid-template-rows: 0.2fr 0.15fr 0.2fr 0.15fr 0.2fr;
+        grid-template-rows: 0.1fr 0.1fr 0.2fr 0.1fr 0.2fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     }
@@ -231,12 +231,13 @@
         grid-area: 2 / 2 / 3 / 3;
         background-image: url("../img/img_1.jpg");
         background-size: 100%;
+        background-size: contain;
         border-top-right-radius: 1vw;
         border-top-left-radius: 1vw;
         margin-right: 15px;
         margin-left: 15px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 25vw;
         width: 25vw;
     }
     #txt1 {
@@ -256,12 +257,13 @@
         grid-area: 2 / 3 / 3 / 4;
         background-image: url("../img/img_2.jpg");
         background-size: 100%;
+        background-size: contain;
         border-top-right-radius: 1vw;
         border-top-left-radius: 1vw;
         margin-right: 15px;
         margin-left: 15px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 25vw;
         width: 25vw;
     }
     #txt2 {
@@ -281,12 +283,13 @@
         grid-area: 2 / 4 / 3 / 5;
         background-image: url("../img/img_3.jpg");
         background-size: 100%;
+        background-size: contain;
         border-top-right-radius: 1vw;
         border-top-left-radius: 1vw;
         margin-right: 15px;
         margin-left: 15px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 25vw;
         width: 25vw;
     }
     #txt3 {
@@ -307,12 +310,13 @@
         background-image: url("../img/img_4.jpg");
         position: 25% 75%;
         background-size: 100%;
+        background-size: contain;
         border-top-right-radius: 1vw;
         border-top-left-radius: 1vw;
         margin-right: 15px;
         margin-left: 15px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 25vw;
         width: 25vw;
     }
     #txt4 {
@@ -332,12 +336,13 @@
         grid-area: 4 / 3 / 5 / 4;
         background-image: url("../img/img_5.jpg");
         background-size: 100%;
+        background-size: contain;
         border-top-right-radius: 1vw;
         border-top-left-radius: 1vw;
         margin-right: 15px;
         margin-left: 15px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 25vw;
         width: 25vw;
     }
     #txt5 {
@@ -357,12 +362,13 @@
         grid-area: 4 / 4 / 5 / 5;
         background-image: url("../img/img_6.jpg");
         background-size: 100%;
+        background-size: contain;
         border-top-right-radius: 1vw;
         border-top-left-radius: 1vw;
         margin-right: 15px;
         margin-left: 15px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 25vw;
         width: 25vw;
     }
     #txt6 {
@@ -409,7 +415,7 @@
             text-align: center;
             color: rgba(134, 134, 134, 0.863);
             font-size: 3vw;
-            height: 18vh;
+            height: 30vh;
         }
         #imgsta { 
             grid-area: 3 / 2 / 4 / 3;
@@ -609,6 +615,7 @@
         #imgfeat{ 
             grid-area: 1 / 2 / 2 / 3;
             margin-top: 3vh;
+            min-height: fit-content;
             background-image: url(../img/macbook.png);
             background-size: cover;
             background-repeat: no-repeat;
@@ -642,7 +649,7 @@
             text-align: center;
             color: rgba(134, 134, 134, 0.863);
             font-size: 3vw;
-            line-height: 2vh;
+            line-height: 3vh;
         }
         .signtest2 {
             margin-top: 4vh;
