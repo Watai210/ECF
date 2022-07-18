@@ -699,10 +699,9 @@
         }
         #saisi {
             font-size: 2vh;
-            margin-top: 5vh;
             background-color: transparent;
             position: absolute;
-            right: 14vh;
+            right: 11vh;
             padding-top: 0.25vw;
             padding-bottom: 0.25vw;
             height: auto;
@@ -713,7 +712,6 @@
         #btnmail {
             position: absolute;
             right: 2vh;
-            margin-top: 5vh;
             color: white;
             text-align: center;
             font-size: 2vh;
@@ -728,8 +726,8 @@
         }
         .plane {
             position: absolute;
-            right: 30vh;
-            margin-top: 5.2vh;
+            right: 27vh;
+            margin-top: 0.2vh;
             width: 2vh;
             height: auto;
         }
