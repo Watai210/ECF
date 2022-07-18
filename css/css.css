@@ -385,7 +385,7 @@ hr{
 
 #para {
     display: grid;
-    margin-top: -55vh;
+    margin-top: -30vh;
     grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
     grid-template-rows: 0.35fr 0.15fr 0.05fr 0.15fr 0.05fr 0.15fr;
     grid-column-gap: 0px;
@@ -411,6 +411,7 @@ hr{
         color: rgba(134, 134, 134, 0.863);
         font-size: 1.7vw;
         height: 15vh;
+        margin-bottom: 5vh;
     }
     #imgsta { 
         grid-area: 3 / 2 / 4 / 3;
